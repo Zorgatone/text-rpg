@@ -1,0 +1,18 @@
+%YAML 1.2
+---
+mobs:
+  animals:
+    - entityId: boar
+      name: Boar
+      entityType: MOB
+      # mobType: ANIMAL
+    - entityId: wolf
+      name: Wolf
+      entityType: MOB
+      # mobType: ANIMAL
+
+  monsters:
+    - entityId: goblin
+      name: Goblin
+      entityType: MOB
+      # mobType: MONSTER

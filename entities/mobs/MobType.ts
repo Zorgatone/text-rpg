@@ -1,4 +1,4 @@
-export const enum MobType {
+export enum MobType {
   ANIMAL = "ANIMAL",
   MONSTER = "MONSTER",
 }

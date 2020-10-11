@@ -1,12 +1,12 @@
 import EntityType from "./EntityType.ts";
 
-export interface EntityObj {
+export interface BaseEntity {
   readonly entityId: string;
   readonly name: string;
   readonly entityType: EntityType;
 }
 
-export class Entity implements EntityObj {
+export class Entity implements BaseEntity {
   protected constructor(
     public readonly uuid: string,
     public readonly entityId: string,

@@ -1,13 +1,13 @@
-import Entity, { EntityObj } from "../Entity.ts";
+import Entity, { BaseEntity } from "../Entity.ts";
 import EntityType from "../EntityType.ts";
 import MobType from "./MobType.ts";
 
-export interface MobObj extends EntityObj {
+export interface BaseMob extends BaseEntity {
   type: EntityType.MOB;
   mobType: MobType;
 }
 
-export class Mob extends Entity implements MobObj {
+export class Mob extends Entity implements BaseMob {
   private _nickname: string | undefined;
 
   protected constructor(

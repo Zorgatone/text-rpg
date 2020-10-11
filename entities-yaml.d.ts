@@ -1,9 +1,9 @@
-import type { AnimalObj } from "./entities/mobs/Animal.ts";
-import type { MonsterObj } from "./entities/mobs/Monster.ts";
+import type { BaseAnimal } from "./entities/mobs/Animal.ts";
+import type { BaseMonster } from "./entities/mobs/Monster.ts";
 
 declare interface MobsObj {
-  animals: AnimalObj[];
-  monsters: MonsterObj[];
+  animals: BaseAnimal[];
+  monsters: BaseMonster[];
 }
 
 declare interface EntitiesYAML {

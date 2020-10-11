@@ -5,14 +5,20 @@ mobs:
     - entityId: boar
       name: Boar
       entityType: MOB
-      # mobType: ANIMAL
+      mobType: ANIMAL
+
     - entityId: wolf
       name: Wolf
       entityType: MOB
-      # mobType: ANIMAL
+      mobType: ANIMAL
 
   monsters:
     - entityId: goblin
       name: Goblin
       entityType: MOB
-      # mobType: MONSTER
+      mobType: MONSTER
+
+    - entityId: orc
+      name: orc
+      entityType: MOB
+      mobType: MONSTER

@@ -1,8 +1,8 @@
-import { EntityObj } from "../entities/Entity.ts";
+import { BaseEntity } from "../entities/Entity.ts";
 import type { EntitiesYAML } from "../entities-yaml.d.ts";
 import isEntity from "./is-entity.ts";
 
-const isMobs = (entities: unknown): entities is EntityObj[] => {
+const isMobs = (entities: unknown): entities is BaseEntity[] => {
   if (typeof entities === "object" && entities !== null) {
     return Object.entries(entities)
       .map(([k, v]) => {

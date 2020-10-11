@@ -1,11 +1,11 @@
-import { Mob, MobObj } from "./Mob.ts";
+import { Mob, BaseMob } from "./Mob.ts";
 import MobType from "./MobType.ts";
 
-export interface AnimalObj extends MobObj {
+export interface BaseAnimal extends BaseMob {
   mobType: MobType.ANIMAL;
 }
 
-export class Animal extends Mob implements AnimalObj {
+export class Animal extends Mob implements BaseAnimal {
   public constructor(uuid: string, entityId: string, name: string) {
     super(uuid, entityId, name, MobType.ANIMAL);
   }

@@ -1,7 +1,7 @@
 import { parse } from "https://deno.land/std@0.74.0/encoding/yaml.ts";
 import { v4 } from "https://deno.land/std@0.74.0/uuid/mod.ts";
-import Monster from "./entities/mobs/Monster.ts";
 
+import Monster from "./entities/mobs/Monster.ts";
 import { isEntitiesYAML } from "./utils/is-entities-yaml.ts";
 
 const fileURL = new URL("./entities.yaml", import.meta.url);

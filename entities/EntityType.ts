@@ -1,4 +1,4 @@
-export const enum EntityType {
+export enum EntityType {
   MOB = "MOB",
 }
 

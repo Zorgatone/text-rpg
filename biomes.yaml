@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+land:
+  - biomeId: plains
+    name: "Plains"
+
+water:
+
+sky:

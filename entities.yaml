@@ -2,23 +2,28 @@
 ---
 mobs:
   animals:
+    - entityId: rat
+      name: ENTITIES.MOBS.ANIMALS.RAT.NAME
+      entityType: MOB
+      mobType: ANIMAL
+
     - entityId: boar
-      name: Boar
+      name: ENTITIES.MOBS.ANIMALS.BOAR.NAME
       entityType: MOB
       mobType: ANIMAL
 
     - entityId: wolf
-      name: Wolf
+      name: ENTITIES.MOBS.ANIMALS.WOLF.NAME
       entityType: MOB
       mobType: ANIMAL
 
   monsters:
     - entityId: goblin
-      name: Goblin
+      name: ENTITIES.MOBS.MONSTERS.GOBLIN.NAME
       entityType: MOB
       mobType: MONSTER
 
     - entityId: orc
-      name: orc
+      name: ENTITIES.MOBS.MONSTERS.ORC.NAME
       entityType: MOB
       mobType: MONSTER

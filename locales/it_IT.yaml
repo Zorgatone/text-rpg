@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+ENTITIES:
+  MOBS:
+    ANIMALS:
+      RAT:
+        NAME: Ratto
+        # DESCRIPTION: ...
+      BOAR:
+        NAME: Cinghiale
+      WOLF:
+        NAME: Lupo
+    MONSTERS:
+      GOBLIN:
+        NAME: Goblin
+      ORC:
+        NAME: Orco

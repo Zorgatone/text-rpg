@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+ENTITIES:
+  MOBS:
+    ANIMALS:
+      RAT:
+        NAME: Rat
+        # DESCRIPTION: ...
+      BOAR:
+        NAME: Boar
+      WOLF:
+        NAME: Wolf
+    MONSTERS:
+      GOBLIN:
+        NAME: Goblin
+      ORC:
+        NAME: Orc
